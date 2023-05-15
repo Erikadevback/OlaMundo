@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+using namespace std;
+
+int calculaFatorial(int x){
+    int resultado =1;
+    while(x!=1){
+        resultado = resultado*x; x--;
+    }
+    return resultado;
+}
+int main()
+{
+    int fatorial=caculaFatorial(10);
+
+    printf("%d\n", fatorial);
+    getchar();
+
+}
